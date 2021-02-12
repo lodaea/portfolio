@@ -69,14 +69,17 @@ body{
     background-position: center center;
     min-height: 300px;
     text-align: center;
-    margin: 40px;
+    margin: 40px 50px 0px 50px;
     font-size: 30px;
+    border-radius: 15px 45px;
+    animation: shine 3s 1;
 }
 h1{
     animation: move 10s 1;
 }
 p{
     animation: move1 5s 1;
+}
 }
 @keyframes move{    
     0%{margin-left:100px}
@@ -105,3 +108,9 @@ p{
     }
     
 }*/
+#project{
+    margin-top: 100px;
+}
+#project h2{
+    border-top: 5px solid rgba(147, 112, 216, 0.726);
+}
