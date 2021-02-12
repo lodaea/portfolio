@@ -1,7 +1,7 @@
 body{
     margin: 0;
     font-family: serif; 
-    background-color: antiquewhite;   
+    background-color:antiquewhite;   
 }
 .container{
     text-decoration: none;
@@ -87,11 +87,11 @@ p{
     20%{margin-right:100px}
     0%{margin-right: 50px;}
     0%{margin-left:100px}
-    0%{margin-left: 50px;}
+    /*0%{margin-left: 50px;}
     0%{margin-right:100px}
     0%{margin-right: 50px;}
     0%{margin-left:100px}
-    0%{margin-left: 50px;}
+    0%{margin-left: 50px;}*/
 }
 @keyframes move1{
     0%{margin-right:100px}
@@ -113,4 +113,6 @@ p{
 }
 #project h2{
     border-top: 5px solid rgba(147, 112, 216, 0.726);
+    margin-top: 10px;
+    text-decoration: underline black;
 }
