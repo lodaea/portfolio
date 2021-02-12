@@ -73,6 +73,7 @@ body{
     font-size: 30px;
     border-radius: 15px 45px;
     animation: shine 3s 1;
+    border:solid rgba(139, 114, 151, 0.356) 4px;
 }
 h1{
     animation: move 10s 1;
