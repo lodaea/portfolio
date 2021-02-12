@@ -69,31 +69,39 @@ body{
     background-position: center center;
     min-height: 300px;
     text-align: center;
-    margin: 20px;
-    font-size: larger;
+    margin: 40px;
+    font-size: 30px;
 }
 h1{
     animation: move 10s 1;
 }
 p{
-    font-size: larger;
     animation: move1 5s 1;
 }
 @keyframes move{    
     0%{margin-left:100px}
-    100 %{margin-left: 50px;}
-    20%{margin-right:200px}
+    10 %{margin-left: 50px;}
+    20%{margin-right:100px}
     0%{margin-right: 50px;}
-    /*0%{margin-left:100px}
+    0%{margin-left:100px}
     0%{margin-left: 50px;}
     0%{margin-right:100px}
     0%{margin-right: 50px;}
     0%{margin-left:100px}
-    0%{margin-left: 50px;}*/
+    0%{margin-left: 50px;}
 }
 @keyframes move1{
     0%{margin-right:100px}
     10%{margin-right: 50px;}
-    60%{margin-left:100px}
+    20%{margin-left:100px}
     0%{margin-left: 50px;}
 }
+
+    /*position: relative; top:-80px; right: -60px;;*/
+
+/*@media screen and (min-width: 480px) and (max-width: 767px) {
+    h1,p{
+        font-size: 30px;
+    }
+    
+}*/
