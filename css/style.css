@@ -1,6 +1,7 @@
 body{
     margin: 0;
-    font-family: Arial, Helvetica, sans-serif;    
+    font-family: Arial, Helvetica, sans-serif; 
+    background-color: antiquewhite;   
 }
 .container{
     text-decoration: none;
@@ -39,6 +40,7 @@ body{
 .mainHeader a.logo{
     font-size: 25px;
     font-weight: bold;
+    
 }
 .mainHeader a:hover{
     background-color: bisque;
