@@ -1,24 +1,17 @@
 body{
     margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
-    /*background: url(/home/goatjo/portfolio/pavlov.jpg);
-    height: 100%;
-    background-size: cover;*/
-    background-color: rgb(235, 173, 93);
+    font-family: Arial, Helvetica, sans-serif;    
 }
 .container{
+    text-decoration: none;
     overflow: hidden;
     margin: auto;
-    width: 80%;
-    height: 60px
-    
+    width: 80%;  
 }
-/*h1{
-    border: black;
-}*/
-#mainHeader{
+
+.mainHeader{
     background: linear-gradient(135deg, 
-    rgb(255, 187, 0), orange, orangered);
+    salmon, aquamarine, violet);
     color:sandybrown;
     text-align: center;
     font-size: 17px;
@@ -32,4 +25,40 @@ body{
     to{
         background-position: 100%;
       }
+}
+.mainHeader a{
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 4px;
+}
+.mainHeader a.logo{
+    font-size: 25px;
+    font-weight: bold;
+}
+.mainHeader a:hover{
+    background-color: bisque;
+    color: black
+}
+.mainheader a.active{
+    background-color: chocolate;
+    color: wheat;
+}
+.Hright{
+    float: right;
+}
+@media screen and (max-width: 500px) {
+    .mainHeader a{
+        float: none;
+        display: block;
+        text-align: left;
+    }
+
+    .Hright{
+        float: none;
+    }
 }
