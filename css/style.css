@@ -1,3 +1,6 @@
+html{
+    height: 165%;
+}
 body{
     margin: 0;
     font-family: serif; 
@@ -109,11 +112,6 @@ p{
     position: relative; top:500px; left: 500px ;
 }
 #project{
-    /*background-image: url(https://i.stack.imgur.com/JBoKL.png);
-    background-position: center;
-    min-height: 300px;
-    text-align: center;
-    margin: 40px 100px -100px 100px;*/
 
 }
 #project h2{
@@ -129,4 +127,8 @@ p{
 #about h2{
     margin-top: 100px;
     color: rgb(247,119,104);
+}
+#about img.me{
+    border-radius: 50%;
+    image-rendering: optimizeQuality;
 }
