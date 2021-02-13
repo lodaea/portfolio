@@ -6,11 +6,10 @@ body{
     padding: 0px;
     font-family: serif; 
     background-color: antiquewhite;   
-    /*background-image:url(https://i.stack.imgur.com/JBoKL.png);*/
-    background-repeat: no-repeat;
-    background-size:cover;
-    background-position: center;
-    height: 200%;
+    background-image:url();
+    /*background-repeat: repeat-y;
+    /*background-position: center;*/
+    background-size: 50%;
 }
 .container{
     text-decoration: none;
@@ -112,19 +111,28 @@ p{
     position: relative; top:500px; left: 500px ;
 }
 #project{
-    
-    justify-content: center;
+    background-color:;
+    background-position: center center;
+    min-height: 300px;
+    margin: 100px 50px 40px 50px;
+    font-size: 30px;
+    border-top: 5px solid rgb(201, 64, 49);
+    border-bottom: 5px solid salmon;
+    border-radius: 15px 45px;   
+    text-align: center;
 }
 #project p{
-    font-size: 150px;
+    font-size: 50px;
     color: salmon;
-    text-align: center;
+    
 }
 #project h2{
     /*  border-top: 5px dotted salmon;*/
-    margin-top: 100px;
-    text-decoration: underline rgb(163, 91, 91);
+    border-top:dotted salmon 4px;
+    border-bottom: solid rgb(236, 135, 124) 4px;
     color: rgb(247, 119, 104);
+    text-align: left;
+    font-size: 20px;
 }
 #about h2{
     margin-top: 100px;
@@ -168,7 +176,7 @@ p{
     padding: 30px 10px;
 }
 .footer-items1 {
-    float: left;
+    /*float: left;*/
 	width: 50%;
 	padding: 10px 10px;
 	box-sizing: border-box;
@@ -179,7 +187,7 @@ p{
 	padding: 10px 10px;
 	box-sizing: border-box;
 	color: salmon;
-    float :right;
+    /*float :right;*/   
     
 }
 .footer-items3 {
@@ -227,7 +235,7 @@ ul a:hover {
 }
 
 ul li {
-	margin: 10px 0;
+	margin: 10px;
 	height: 25px;
 }
 @media screen and (max-width: 1275px) {
