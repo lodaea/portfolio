@@ -1,16 +1,16 @@
 html{
-    height: 100%;
+    height:100%;
 }
 body{
     margin: 0px;
     padding: 0px;
     font-family: serif; 
     background-color: antiquewhite;   
-    /*background-image:url(https://i.stack.imgur.com/JBoKL.png);*/  
+    /*background-image:url(https://i.stack.imgur.com/JBoKL.png);*/
     background-repeat: no-repeat;
     background-size:cover;
     background-position: center;
-    /*height: 200%;*/
+    height: 200%;
 }
 .container{
     text-decoration: none;
@@ -112,12 +112,18 @@ p{
     position: relative; top:500px; left: 500px ;
 }
 #project{
-
+    
+    justify-content: center;
+}
+#project p{
+    font-size: 150px;
+    color: salmon;
+    text-align: center;
 }
 #project h2{
     /*  border-top: 5px dotted salmon;*/
-    /*margin-top: 100px;*/
-   /* text-decoration: underline rgb(10, 10, 10);*/
+    margin-top: 100px;
+    text-decoration: underline rgb(163, 91, 91);
     color: rgb(247, 119, 104);
 }
 #about h2{
@@ -169,30 +175,30 @@ p{
 	color: salmon;
 }
 .footer-items2 {
-	width: 25%;
+	width: 15%;
 	padding: 10px 10px;
 	box-sizing: border-box;
 	color: salmon;
+    float :right;
     
 }
 .footer-items3 {
-    float: right;
 	width: 25%;
-	padding: 10px;
+	padding: 10px 0px;
 	box-sizing: border-box;
 	color: salmon;
 }
 
-.footer-items p {
+/*.footer-items p {
 	font-size: 16px;
-	text-align: justify;
+	text-align: left;
 	line-height: 25px;
-	color: #fff;
+	color: rgb(82, 214, 203);
 }
 
 .footer-items h1 {
 	color: rgb(88, 238, 213);
-} 
+} */
 .line {
 	height: 3px;
 	width: 40px;
@@ -212,12 +218,12 @@ ul {
 ul a {
 	text-decoration: none;
 	outline: none;
-	color: #fff;
+	color: bisque;
 	transition: 0.3s;
 }
 
 ul a:hover {
-	color: #ff9800;
+	color: salmon;
 }
 
 ul li {
