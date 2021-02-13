@@ -2,6 +2,11 @@ body{
     margin: 0;
     font-family: serif; 
     background-color: antiquewhite;   
+    background-image:url(https://i.stack.imgur.com/JBoKL.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    height: 100%;
 }
 .container{
     text-decoration: none;
@@ -12,7 +17,7 @@ body{
 
 .mainHeader{
     background: linear-gradient(135deg, 
-    salmon,aquamarine, violet);
+    violet,aquamarine, salmon);
     text-align: center;
     font-size: 17px;
     background-size: 400%;
@@ -104,13 +109,18 @@ p{
     position: relative; top:500px; left: 500px ;
 }
 #project{
-    
+    /*background-image: url(https://i.stack.imgur.com/JBoKL.png);
+    background-position: center;
+    min-height: 300px;
+    text-align: center;
+    margin: 40px 100px -100px 100px;*/
+
 }
 #project h2{
-    border-top: 5px dotted salmon;
-    margin-top: 100px;
+    /*  border-top: 5px dotted salmon;*/
+    /*margin-top: 100px;*/
    /* text-decoration: underline rgb(10, 10, 10);*/
-    color: salmon;
+    color: rgb(247, 119, 104);
 }
 #about{
     
@@ -118,4 +128,5 @@ p{
 }
 #about h2{
     margin-top: 100px;
+    color: rgb(247,119,104);
 }
