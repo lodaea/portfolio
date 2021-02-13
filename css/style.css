@@ -64,17 +64,18 @@ body{
     }
 }
 #intro{
-    background-color: rgba(240, 255, 255, 0.514);
+    background-color:bisque;
     background-position: center center;
     min-height: 300px;
     text-align: center;
     margin: 40px 50px 0px 50px;
     font-size: 30px;
+    border:solid rgba(250, 128, 114, 0.575) 4px;
     border-radius: 15px 45px;
-    border:dotted rgba(224, 112, 140, 0.534) 4px;
+
 }
 h1{
-    animation: move 10s 1;
+    animation: move 5s 1;
     color: salmon;
 }
 p{
@@ -83,12 +84,12 @@ p{
 }*/
 @keyframes move{    
     0%{margin-left:100px}
-    10 %{margin-left: 50px;}
+    10%{margin-left: 50px;}
     20%{margin-right:100px}
     0%{margin-right: 50px;}
     0%{margin-left:100px}
-    /*0%{margin-left: 50px;}
-    0%{margin-right:100px}
+    0%{margin-left: 50px;}
+    /*0%{margin-right:100px}
     0%{margin-right: 50px;}
     0%{margin-left:100px}
     0%{margin-left: 50px;}*/
@@ -99,19 +100,22 @@ p{
     20%{margin-left:100px}
     0%{margin-left: 50px;}
 }
+#deco{
+    position: relative; top:500px; left: 500px ;
+}
 #project{
     
 }
 #project h2{
-    border-top: 5px solid rgba(226, 138, 164, 0.726);
+    border-top: 5px dotted salmon;
     margin-top: 100px;
    /* text-decoration: underline rgb(10, 10, 10);*/
-    color: rgb(11, 12, 12);
+    color: salmon;
 }
 #about{
     
 
 }
 #about h2{
-
+    margin-top: 100px;
 }
