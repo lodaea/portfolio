@@ -1,7 +1,7 @@
 body{
     margin: 0;
     font-family: serif; 
-    background-color:antiquewhite;   
+    background-color: antiquewhite;   
 }
 .container{
     text-decoration: none;
@@ -12,8 +12,7 @@ body{
 
 .mainHeader{
     background: linear-gradient(135deg, 
-    salmon, aquamarine, violet);
-    color:sandybrown;
+    salmon,aquamarine, violet);
     text-align: center;
     font-size: 17px;
     background-size: 400%;
@@ -29,13 +28,13 @@ body{
 }
 .mainHeader a{
     float: left;
-    color: black;
+    color:black;
     text-align: center;
     padding: 12px;
     text-decoration: none;
     font-size: 18px;
     line-height: 25px;
-    border-radius: 4px;
+    border-radius: 4px 10px;
 }
 .mainHeader a.logo{
     font-size: 25px;
@@ -44,7 +43,7 @@ body{
 }
 .mainHeader a:hover{
     background-color: bisque;
-    color: black
+    color: salmon
 }
 .mainheader a.active{
     background-color: chocolate;
@@ -72,15 +71,16 @@ body{
     margin: 40px 50px 0px 50px;
     font-size: 30px;
     border-radius: 15px 45px;
-    animation: shine 3s 1;
-    border:solid rgba(139, 114, 151, 0.356) 4px;
+    border:dotted rgba(224, 112, 140, 0.534) 4px;
 }
 h1{
     animation: move 10s 1;
+    color: salmon;
 }
 p{
     animation: move1 5s 1;
-}
+
+}*/
 @keyframes move{    
     0%{margin-left:100px}
     10 %{margin-left: 50px;}
@@ -99,21 +99,19 @@ p{
     20%{margin-left:100px}
     0%{margin-left: 50px;}
 }
-
-    /*position: relative; top:-80px; right: -60px;;*/
-
-/*@media screen and (min-width: 480px) and (max-width: 767px) {
-    h1,p{
-        font-size: 30px;
-    }
-    
-}*/
 #project{
-    margin-top: 100px;
+    
 }
 #project h2{
-    border-top: 5px solid rgba(147, 112, 216, 0.726);
-    margin:auto;
-    margin-bottom: ;
-    text-decoration: underline black;
+    border-top: 5px solid rgba(226, 138, 164, 0.726);
+    margin-top: 100px;
+   /* text-decoration: underline rgb(10, 10, 10);*/
+    color: rgb(11, 12, 12);
+}
+#about{
+    
+
+}
+#about h2{
+
 }
