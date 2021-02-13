@@ -89,7 +89,7 @@ h1{
 p{
     animation: move1 5s 1;
 
-}*/
+}
 @keyframes move{    
     0%{margin-left:100px}
     10%{margin-left: 50px;}
@@ -139,4 +139,22 @@ p{
     border-radius: 20px;
     padding: 10px;
     background-color: rgba(214, 103, 90, 0.459);
+}
+.footer{
+    background: linear-gradient(55deg, 
+    violet,aquamarine, salmon);
+    font-size: 17px;
+    background-size: 400%;
+    margin-top: 40px;
+    animation: anim2 4s infinite alternate;
+    
+
+}
+@keyframes anim2{
+    from{
+    background-position: 0%;
+    }
+    to{
+        background-position: 100%;
+    }
 }
