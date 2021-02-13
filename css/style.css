@@ -1,8 +1,9 @@
 html{
-    height: 165%;
+    height: 100%;
 }
 body{
-    margin: 0;
+    margin: 0px;
+    padding: 0px;
     font-family: serif; 
     background-color: antiquewhite;   
     /*background-image:url(https://i.stack.imgur.com/JBoKL.png);*/  
@@ -17,7 +18,6 @@ body{
     margin: auto;
     width: 80%;  
 }
-
 .mainHeader{
     background: linear-gradient(135deg, 
     violet,aquamarine, salmon);
@@ -47,8 +47,7 @@ body{
 }
 .mainHeader a.logo{
     font-size: 25px;
-    font-weight: bold;
-    
+    font-weight: bold;   
 }
 .mainHeader a:hover{
     background-color: bisque;
@@ -121,17 +120,14 @@ p{
    /* text-decoration: underline rgb(10, 10, 10);*/
     color: rgb(247, 119, 104);
 }
-#about{
-    
-
-}
 #about h2{
     margin-top: 100px;
     color: rgb(247,119,104);
 }
 #about img.me{
-    border-radius: 100%;
+    border-radius: 50%;
     image-rendering: optimizeQuality;
+    
 }
 #about .talk{
     line-height: 1.6em;
@@ -140,27 +136,102 @@ p{
     border-radius: 20px;
     padding: 10px;
     background-color: rgba(214, 103, 90, 0.459);
+    margin-bottom: 60px;
+    justify-content: end;
+    display: block;
 }
-.footer{
-    background-color: #a61f4c;
-    border-top: 1px solid #921b39;
-    color: #a5d8c7;
-    text-shadow: 0 1px 0 rgb(0 0 0 / 15%);
-    margin-top: 60px;
-    /*background: linear-gradient(55deg, 
-    violet,aquamarine, salmon);
-    font-size: 17px;
-    background-size: 400%;
-    margin-top: 40px;
-    animation: anim2 4s infinite alternate;
+#about ul li{
+    display: block;
+    margin-bottom: 30px;
+    color: black;
+    font-size: 20px;
+    line-height: 1em;
+}
+.footer {
+	width: 100%;
+	background: rgb(201, 64, 49);
+	display: block;
+}
+.footerleft {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    justify-content: center;
+    margin: auto;
+    padding: 30px 10px;
+}
+.footer-items1 {
+    float: left;
+	width: 50%;
+	padding: 10px 10px;
+	box-sizing: border-box;
+	color: salmon;
+}
+.footer-items2 {
+	width: 25%;
+	padding: 10px 10px;
+	box-sizing: border-box;
+	color: salmon;
     
+}
+.footer-items3 {
+    float: right;
+	width: 25%;
+	padding: 10px;
+	box-sizing: border-box;
+	color: salmon;
+}
 
+.footer-items p {
+	font-size: 16px;
+	text-align: justify;
+	line-height: 25px;
+	color: #fff;
 }
-/*@keyframes anim2{
-    from{
-    background-position: 0%;
-    }
-    to{
-        background-position: 100%;
+
+.footer-items h1 {
+	color: rgb(88, 238, 213);
+} 
+.line {
+	height: 3px;
+	width: 40px;
+	background: #ff9800;
+	color: #ff9800;
+	background-color: #ff9800;
+	border: 0px;
+}
+
+ul {
+	list-style: none;
+	color: #fff;
+	font-size: 15px;
+	letter-spacing: 0.5px;	
+ }
+
+ul a {
+	text-decoration: none;
+	outline: none;
+	color: #fff;
+	transition: 0.3s;
+}
+
+ul a:hover {
+	color: #ff9800;
+}
+
+ul li {
+	margin: 10px 0;
+	height: 25px;
+}
+@media screen and (max-width: 1275px) {
+	.footer-items {
+		width: 50%;
     }
 }
+@media screen and (max-width: 660px) {
+	.footer-items {
+		width: 100%;
+	}
+}
+
