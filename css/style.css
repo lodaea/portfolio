@@ -5,11 +5,11 @@ body{
     margin: 0;
     font-family: serif; 
     background-color: antiquewhite;   
-    /*background-image:url(https://i.stack.imgur.com/JBoKL.png);*/
+    /*background-image:url(https://i.stack.imgur.com/JBoKL.png);*/  
     background-repeat: no-repeat;
     background-size:cover;
     background-position: center;
-    height: 100%;
+    /*height: 200%;*/
 }
 .container{
     text-decoration: none;
@@ -23,6 +23,7 @@ body{
     violet,aquamarine, salmon);
     text-align: center;
     font-size: 17px;
+    border-bottom:solid 1px aquamarine;
     background-size: 400%;
     animation: anim 4s infinite alternate;
 }
@@ -141,7 +142,12 @@ p{
     background-color: rgba(214, 103, 90, 0.459);
 }
 .footer{
-    background: linear-gradient(55deg, 
+    background-color: #a61f4c;
+    border-top: 1px solid #921b39;
+    color: #a5d8c7;
+    text-shadow: 0 1px 0 rgb(0 0 0 / 15%);
+    margin-top: 60px;
+    /*background: linear-gradient(55deg, 
     violet,aquamarine, salmon);
     font-size: 17px;
     background-size: 400%;
@@ -150,7 +156,7 @@ p{
     
 
 }
-@keyframes anim2{
+/*@keyframes anim2{
     from{
     background-position: 0%;
     }
