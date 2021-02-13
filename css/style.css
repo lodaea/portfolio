@@ -113,6 +113,7 @@ p{
 }
 #project h2{
     border-top: 5px solid rgba(147, 112, 216, 0.726);
-    margin-top: 10px;
+    margin:auto;
+    margin-bottom: ;
     text-decoration: underline black;
 }
