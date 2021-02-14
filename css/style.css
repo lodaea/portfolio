@@ -253,6 +253,16 @@ ul li {
         display: block;
 
     }
+    #project img{
+        position: relative; left: -90px;
+    }
+    #project p{
+        font-size: 35px;
+    }
+    #about ul li{
+        line-height: normal;
+        display: inline-block;
+    }
 
 }
 
