@@ -6,10 +6,6 @@ body{
     padding: 0px;
     font-family: serif; 
     background-color: antiquewhite;   
-    background-image:url();
-    background-repeat: unset;
-    /*background-position: center;*/
-    background-size: 50%;
 }
 .container{
     text-decoration: none;
@@ -96,10 +92,6 @@ p{
     0%{margin-right: 50px;}
     0%{margin-left:100px}
     0%{margin-left: 50px;}
-    /*0%{margin-right:100px}
-    0%{margin-right: 50px;}
-    0%{margin-left:100px}
-    0%{margin-left: 50px;}*/
 }
 @keyframes move1{
     0%{margin-right:100px}
@@ -127,7 +119,6 @@ p{
     
 }
 #project h2{
-    /*  border-top: 5px dotted salmon;*/
     border-top:dotted salmon 4px;
     border-bottom: solid rgb(236, 135, 124) 4px;
     color: rgb(247, 119, 104);
@@ -140,8 +131,6 @@ p{
 }
 #about img.me{
     border-radius: 50%;
-    image-rendering: optimizeQuality;
-    
 }
 #about .talk{
     line-height: 1.6em;
@@ -151,8 +140,10 @@ p{
     padding: 10px;
     background-color: rgba(214, 103, 90, 0.459);
     margin-bottom: 60px;
-    justify-content: end;
     display: block;
+    background-image: url(https://i.dlpng.com/static/png/6589094_preview.png);
+    background-size: cover;
+    text-shadow: burlywood 2px 2px;
 }
 #about ul li{
     display: block;
@@ -160,6 +151,10 @@ p{
     color: black;
     font-size: 20px;
     line-height: 1em;
+}
+#about ul a{
+    color: salmon;
+    text-decoration: none;
 }
 .footer {
 	width: 100%;
@@ -176,7 +171,6 @@ p{
     padding: 30px 10px;
 }
 .footer-items1 {
-    /*float: left;*/
 	width: 50%;
 	padding: 10px 10px;
 	box-sizing: border-box;
@@ -187,8 +181,6 @@ p{
 	padding: 10px 10px;
 	box-sizing: border-box;
 	color: salmon;
-    /*float :right;*/   
-    
 }
 .footer-items3 {
 	width: 25%;
@@ -223,7 +215,7 @@ ul {
 	letter-spacing: 0.5px;	
  }
 
-ul a {
+.footer ul a {
 	text-decoration: none;
 	outline: none;
 	color: bisque;
