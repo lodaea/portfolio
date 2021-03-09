@@ -103,7 +103,7 @@ p{
     position: relative; top:500px; left: 500px ;
 }
 #project{
-    background-color:;
+    /*background-color:;*/
     background-position: center center;
     min-height: 300px;
     margin: 100px 50px 40px 50px;
@@ -141,7 +141,7 @@ p{
     background-color: rgba(214, 103, 90, 0.459);
     margin-bottom: 60px;
     display: block;
-    background-image: url(https://i.dlpng.com/static/png/6589094_preview.png);
+    background-image: url(../img/6589094_preview.png);
     background-size: cover;
     text-shadow: burlywood 2px 2px;
 }
